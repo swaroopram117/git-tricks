@@ -1,0 +1,49 @@
+Git config --global user.name  username
+Git config --global user.email  email address
+Git config --global user.name  show user name 
+Git config --global --edit    we can edit user name and email address
+Mkdir directory name
+git init   initialize the git directory
+Git status   yeh status show krta hai what changes happens
+Git add file name
+Git add. Isse sabhi files add ho jati hai
+Git commit -m “initial commit”
+Git log show all commit
+Git checkout master   bapas se old jagah par aajate hai 
+Git checkout hash code   isse us hashcode wale time par ja skte hai 
+Git branch    show all branch name
+Git branch   branch name    used to add branch name 
+Git checkout branch name  isse kisi bhi branch me ja skte hai
+Git merge branch name   isse dusri branch ko bhi merge kr skte hai apni branch me
+Touch .gitignore   file ke pehle . lagane se file git dwara ignore kar di jati hai
+
+
+
+
+
+Create repository on github
+  Create new repository 
+Done
+
+
+
+
+
+
+
+create a new repository on the command line
+echo "# git-tricks" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/swaroopram117/git-tricks.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/swaroopram117/git-tricks.git
+git branch -M main
+git push -u origin main
+
